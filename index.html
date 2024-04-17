@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-div">
+          <img src="logo.svg" alt=""/>
+        <img src="icon-close.svg" alt="" class="closebtn" onclick="closeMenu()"/>
+        </div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <div class="sidebar-btns">
+            <button onclick="displayForm()" class="getstarted">Get Started</button>
+            <button class="readmore">read more</button>
+        </div>
+       </div> 
+    <nav class="navbar">
+    <div class="container">
+        <img class="logo" src="intel.png" alt=""/>
+     <div class="menu-bar">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+     </div>
+     <div class="header-btns">
+        <button onclick="displayForm()" class="getstarted">Get Started</button>
+        <button class="readmore">read more</button>
+    </div>
+     <img class="menu-btn" src="icon-hamburger.svg" alt="" onclick="openMenu()">
+    </div>
+    </nav>
+    <section class="first-section">
+      <div class="first">
+        <h3>Professional Tools</h3>
+        <h1>Programming Language Portal</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto at dolorum nihil doloremque odio culpa veritatis est mollitia.</p>
+        <div class="header-btns">
+            <button class="getstarted">Read more</button>
+        </div>
+      </div> 
+      <div>
+        <img src="pc-code.jpg" alt=""/>
+      </div> 
+    </section>
+    <section class="second-section">
+        <article><h2>Our Features</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore asperiores quasi quas nihil ab, commodi, vero iste sint eaque, at magni temporibus ratione laudantium deserunt impedit labore aliquid itaque!</p></article>
+        <div class="grid-section">
+       <div>
+        <img src="icon-coding.png" alt=""/>
+        <h5>Optimised Code</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+       <div>
+        <img src="icon-devices.png" alt=""/>
+        <h5>Mobile Friendly</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+       <div>
+        <img src="icon-paint-brush.png" alt=""/>
+        <h5>Unique Styles</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+       <div>
+        <img src="icon-monitor.png" alt=""/>
+        <h5>Best Solutions</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+       <div>
+        <img src="icon-time.png" alt=""/>
+        <h5>Time Saving</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+       <div>
+        <img src="icon-monitor.png" alt=""/>
+        <h5>Professional Team</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora, ipsam, ea consequuntur consequatur qui sequi esse iure quod fugit aliquam!</p>
+       </div>
+        </div>
+    </section>
+    <footer>
+        <div class="first">
+          <h3>Professional Tools</h3>
+          <h1>Programming Language Portal</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto at dolorum nihil doloremque odio culpa veritatis est mollitia.</p>
+          <div class="header-btns">
+              <button onclick="displayForm()" class="readmore">Get started</button>
+          </div>
+        </div>
+        <div class="icons">
+            <img src="icon-facebook.svg" alt=""/>
+            <img src="icon-twitter.svg" alt=""/>
+            <img src="icon-instagram.svg" alt=""/>
+        </div>  
+    </footer>
+</main>
+    <div class="sign-up">
+        <h1>Join Us Today</h1>
+        <div class="labels">
+           <label>Email</label>
+           <input id="email" type="email" placeholder="Email"/> 
+           <p class="email-err">input email</p>
+        </div>
+        <button class="button" onclick="checkInputs()" id="submitForm">Regiser</button>
+    </div>
+    <div class="thanks">
+        <img src="valid.png" alt=""/>
+        <h3>Thans for Subscribing!</h3>
+        <p>An email has been sent to the emai address you provided. There lies futher instructions</p>
+        <button onclick="goBack()" class="readmore">Return to Home</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
